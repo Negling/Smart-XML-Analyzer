@@ -99,6 +99,7 @@ public class Crawler {
             int currentMatchScore = calculateMatchScore(metadata, element);
 
             if (currentMatchScore == maxMatchScore) {
+                mostRelevant.clear();
                 mostRelevant.add(element);
 
                 // simply return on perfect match
