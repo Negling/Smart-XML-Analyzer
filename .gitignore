@@ -1,0 +1,24 @@
+# Folders
+.idea/
+.gradle/
+target/
+dist/
+out/
+build/
+sandbox_db/
+tomcat.*/
+
+
+#Files
+*.iml
+
+.settings
+.metadata
+.project
+.classpath
+.checkstyle
+.gradle
+bin/
+
+#GIT
+*.versionsBackup
